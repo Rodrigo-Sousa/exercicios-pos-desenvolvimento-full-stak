@@ -1,6 +1,6 @@
 # Exercícios do curso de pós-graduação em  Desenvolvimento Full Stack
 
-Repositório para armazenar alguns dos exercícios propostos do curso de pós-graduação. Servindo como forma de reforçar o aprendizado, compartilhar e consulta futura. Acompanhando também, a curva de aprendizado.
+Seja muito bem-vindo a este repositório, no qual contém alguns dos exercícios propostos do curso de pós-graduação. Servindo como forma de reforçar o aprendizado, compartilhar os conhecimentos adquiridos e consultas futura. Com o foco em acompanhando a curva de aprendizado ao decurso do desenvolvimento e carreira.
 
 ---
 
