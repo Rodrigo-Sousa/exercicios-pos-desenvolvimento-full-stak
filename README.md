@@ -7,3 +7,4 @@ Seja muito bem-vindo a este repositório, no qual contém alguns dos exercícios
 ## Módulo I - Bootcamp Desenvolvedor - Node.Js
 
 1. [Hello World - Node.js](./01-hello-world-node-js/)
+1.1. [Módulos](./02-modules/)
