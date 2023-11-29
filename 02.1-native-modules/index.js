@@ -11,14 +11,21 @@ fs.writeFile("teste.txt", "teste, teste, teste, conteúdo do arquivo.", function
         // Se ocorreu algum erro, irá retornar o erro.
         console.log(err);
     }else {
-        // se não, resultado que deu ok.
-        // console.log("Arquivo escrito com sucesso.");
-        // Realizando leitura do arquivo, como parâmetro, passamos o caminho do arquivo. Passamos a callback, com 2 parâmtros, o erro, e os dados, para leitura, caso dê certo.
-        fs.readFile("teste.txt", "utf-8", function(err, data){
+        // Concatenando o conteúdo do arquivo; Ele adiciona o conteúdo ao final do arquivo.
+        fs.appendFile("teste.txt", "teste append file", function(err){
             if(err){
                 console.log(err);
             }else{
-                console.log(data);
+                // se não, resultado que deu ok.
+                // console.log("Arquivo escrito com sucesso.");
+                // Realizando leitura do arquivo, como parâmetro, passamos o caminho do arquivo. Passamos a callback, com 2 parâmtros, o erro, e os dados, para leitura, caso dê certo.
+                fs.readFile("teste.txt", "utf-8", function(err, data){
+                if(err){
+                    console.log(err);
+                }else{
+                    console.log(data);
+                }
+        });
             }
         });
     }
