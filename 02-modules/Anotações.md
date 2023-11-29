@@ -70,3 +70,5 @@ Events, módulo nativo, no qual podemos emitir e escutar eventos.
 Podemos trabalhar e chamar os eventos, em diversos arquivos.
 
 ---
+
+**HTTP**, módulo nativo, para podermos criar um servidor, que pode receber requisições (solicitações). O _Express_ faz isso também, mas de forma muito mais preparada, mas pelo Node, há esse módulo, que conseguimos realizar também.
