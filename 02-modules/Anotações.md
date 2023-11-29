@@ -48,3 +48,17 @@ fs.writeFile(
 ```
 
 No terminal, ao rodarmos o arquivo, será apresentando o _buffer_ do arquivo. `<Buffer 74 65 73 74 65 2c 20 74 65 73 74 65 2c 20 74 65 73 74 65 2c 20 63 6f 6e 74 65 c3 ba 64 6f 20 64 6f 20 61 72 71 75 69 76 6f 2e>`. No qual ele imprime como bit, não como texto. Para corrigirmos isso, basta informamos qual é a formatação que utilizamos no nosso arquivo: `fs.readFile("teste.txt", "utf-8", function(err, data)`.
+
+---
+
+Leitura e escrita em conteúdos JSON.
+
+[Escritas e leituras - Arquivos JSON](../02.1-native-modules/writeJson.js)
+
+---
+
+Interação do usuário com o programa, por linha de comando, no terminal.
+
+[Readline](../02.1-native-modules/readline/)
+
+---
