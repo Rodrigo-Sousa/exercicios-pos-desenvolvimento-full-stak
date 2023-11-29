@@ -62,3 +62,11 @@ Interação do usuário com o programa, por linha de comando, no terminal.
 [Readline](../02.1-native-modules/readline/)
 
 ---
+
+Events, módulo nativo, no qual podemos emitir e escutar eventos.
+
+[Events](../02.1-native-modules/events/)
+
+Podemos trabalhar e chamar os eventos, em diversos arquivos.
+
+---
