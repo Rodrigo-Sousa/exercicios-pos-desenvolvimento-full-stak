@@ -3,29 +3,56 @@
 import {promises as fs} from "fs";
 
 
+// Async await
+
+// Criando uma função, para utilizarmos o async await
+
+// Chamando a função:
+
+init();
+
+async function init (){
+
+    // Try catch, englobando a função
+    try{
+        // Se der algum erro, já vai cair no catch
+        await fs.writeFile("teste-wait.txt", "conteúdo realizando utilizando - async await function");
+            
+        await fs.appendFile("teste-wait.txt", "\n concatenando conteúdo, ao utilizar async await \n");
+
+        // recebendo o arquivo na variável data
+        const data = await fs.readFile("teste-wait.txt","utf-8")
+        console.log(data);
+        
+    } catch (erro){
+        console.log(erro);
+    }
+}
+
+/* Promise hell, promise, dentro de promises, dentro de promise - não realizar */
 // Utilizando a promises. Utilizando o arrow function
 
-fs.writeFile("teste-arquivo-promises.txt", "conteúdo realizado utilizando a promises").then( () => {
+// fs.writeFile("teste-arquivo-promises.txt", "conteúdo realizado utilizando a promises").then( () => {
 
-    // Então, caindo aqui, iremos utilizar o appendFile();
-    fs.appendFile("teste-arquivo-promises.txt","\n Testando a concatenação dos arquivos, com promises \n").then(()=>{
-        // Lendo o arquivo
-        fs.readFile("teste-arquivo-promises.txt", "utf-8").then((response)=>{
-            // pegando o response da promises
-            console.log(response);
-        }).catch((erro) => {
-            // Mensagem de erros.
-            console.log(erro);
-        });
+//     // Então, caindo aqui, iremos utilizar o appendFile();
+//     fs.appendFile("teste-arquivo-promises.txt","\n Testando a concatenação dos arquivos, com promises \n").then(()=>{
+//         // Lendo o arquivo
+//         fs.readFile("teste-arquivo-promises.txt", "utf-8").then((response)=>{
+//             // pegando o response da promises
+//             console.log(response);
+//         }).catch((erro) => {
+//             // Mensagem de erros.
+//             console.log(erro);
+//         });
 
-    }).catch(()=>{
-        console.log("Erro, ao tentar rodar o appendFile");
-    });
+//     }).catch(()=>{
+//         console.log("Erro, ao tentar rodar o appendFile");
+//     });
     
-}).catch(() => {
-    // Caso dê algum erro.
-    console.log(erro);
-});
+// }).catch(() => {
+//     // Caso dê algum erro.
+//     console.log(erro);
+// });
 
 
 // Para realizarmos a importação, inserir a palavra import, o nome da variável seguida de from entre aspas, o nome do módulo que iremos importar
