@@ -1,0 +1,1 @@
+teste, teste, teste, conteúdo do arquivo.teste append file

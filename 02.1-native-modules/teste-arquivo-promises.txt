@@ -1,0 +1,2 @@
+conteúdo realizado utilizando a promises
+ Testando a concatenação dos arquivos, com promises 
