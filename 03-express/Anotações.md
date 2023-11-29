@@ -14,3 +14,7 @@ Para testarmos as rotas, para além do método GET, podemos utilizar algum progr
 - Insomnia
 
 Para irmos testando as rotas da nossa aplicação.
+
+---
+
+Rotas aprimoradas: [index.js](3.1-rotas-aprimoradas/index.js)
