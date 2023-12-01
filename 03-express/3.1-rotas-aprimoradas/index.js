@@ -63,6 +63,53 @@ app.get("/testeParametros/:id/:a?",(req,res)=>{
     res.send(req.params.id);
 });
 
+// Parâmetros via query
+app.get("/testQuery",(req,res)=>{
+    // Recebendo os valores da requisição, pela query (consulta).
+    // Imprimindo a req.query no browser.
+    res.send(req.query);
+});
+
+// Utilizando o parâmetro next, para que mais de uma função seja rodada naquela requisição.
+
+app.get("/testeDiversosManipuladores", (req, res, next)=>{
+    console.log("Callback 1");
+    // Assim, tiramos o fluxo da função atual, e passamos para a próxima
+    next();
+},
+    // Inserindo a próxima função
+    (req, res)=>{
+        console.log("Callback 2");
+        // retornando uma resposta para o usuário. Para poder finalizar a requisição
+        res.send("Validado a requisição multipla");
+        // Finaliznado, sem retornar mensagem res.end();
+    }
+
+);
+
+// Podemos passar o next com array
+
+// Funções soltas.
+const callback1 = (req, res, next =>{
+    console.log("Callback 1");
+    next();
+});
+
+// callback criado como function
+
+function callback2 (req, res, next) {
+    console.log("Callback 2");
+    next();
+}
+
+const callback3 = (req, res ) =>{
+    console.log("Callback3");
+    res.end();
+}
+
+// Criando rotas, para consumir as funções que declaramos.
+
+app.get("/testeDiversosMultiplicadoresArray", [callback1, callback2, callback3]);
 
 app.listen(3001, ()=>{
     console.log("API de Rotas Aprimoradas iniciado com Sucesso!");
