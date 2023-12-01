@@ -3,6 +3,9 @@ import express from "express";
 
 const app = express();
 
+// Informando na instância do express que iremos trabalhar com arquivos JSON (quando passado o corpo pela requisição)
+app.use(express.json());
+
 // app.get("/", (req, res)=>{
 //     res.send("Hello World - Aprimorando Rotas");
 // });
@@ -37,7 +40,27 @@ app.get("/one*Blue", (_,res)=>{
 // A string que estiver entre os parênteses, é tratada, como unidade. Podendo até juntar outros elementos.
 
 app.post("/test(ing)?", (req, res)=>{
+    // Pegando o conteúdo do corpo, após a requisição
+    console.log(req.body);
     res.send("Teste de rota com o caracter ? na requisição");
+});
+
+// Expressões regulares. Podendo expressar várias string's que irão bater na nossa rota. Para a expressão regular, não fica entre aspas, mas sim, iniciando e finalizando com uma barra
+
+app.get(/.*Regular$/, (req, res)=>{
+    res.send("Respondendo a expressão regular; tudo que vinher acompanhado da palavra Regular");
+});
+
+// Rotas com parâmetros
+
+app.get("/testeParametros/:id",(req,res)=>{
+    // Na resposta, passando o parametro que venho na requisição, o nome aqui, passamos como parâmetros o id
+    res.send(req.params.id);
+});
+
+// Parâmetro opcional, basta inserirmos o caracter de interrogação
+app.get("/testeParametros/:id/:a?",(req,res)=>{
+    res.send(req.params.id);
 });
 
 
