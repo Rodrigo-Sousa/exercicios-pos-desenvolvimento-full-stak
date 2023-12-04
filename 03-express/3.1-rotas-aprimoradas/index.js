@@ -111,6 +111,20 @@ const callback3 = (req, res ) =>{
 
 app.get("/testeDiversosMultiplicadoresArray", [callback1, callback2, callback3]);
 
+// Utilizando o Route(), para respondermos as requisições de forma a rotear elas, para cada método solicitado, sendo atribuído um tipo de resposta.
+
+app.route("/testeRoute")
+    .get((req, res) =>{
+        res.send("/testeRoute GET"); 
+    })
+    .post((req, res) =>{
+        res.send("/testeRoute POST"); 
+    })
+    .delete((req, res) =>{
+        res.send("/testeRoute DELETE"); 
+    });
+
+
 app.listen(3001, ()=>{
     console.log("API de Rotas Aprimoradas iniciado com Sucesso!");
 });
