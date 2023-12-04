@@ -90,10 +90,10 @@ app.get("/testeDiversosManipuladores", (req, res, next)=>{
 // Podemos passar o next com array
 
 // Funções soltas.
-const callback1 = (req, res, next =>{
+const callback1 = (req, res, next) =>{
     console.log("Callback 1");
     next();
-});
+};
 
 // callback criado como function
 
