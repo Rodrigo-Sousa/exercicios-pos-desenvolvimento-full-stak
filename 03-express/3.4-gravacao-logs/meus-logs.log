@@ -1,0 +1,94 @@
+2023-12-05T18:03:11.347Z [Meu projeto] error : Log de erro
+2023-12-05T18:03:11.350Z [Meu projeto] warn : Log de alerta
+2023-12-05T18:03:11.351Z [Meu projeto] info : Log de informação
+2023-12-05T18:03:11.352Z [Meu projeto] verbose : Log do tipo verbose
+2023-12-05T18:03:11.352Z [Meu projeto] debug : Log com o tipo de degub
+2023-12-05T18:05:33.710Z [Meu projeto] error : Log de erro
+2023-12-05T18:05:33.713Z [Meu projeto] warn : Log de alerta
+2023-12-05T18:05:33.714Z [Meu projeto] info : Log de informação
+2023-12-05T18:05:33.714Z [Meu projeto] verbose : Log do tipo verbose
+2023-12-05T18:05:33.714Z [Meu projeto] debug : Log com o tipo de degub
+2023-12-05T18:05:33.715Z [Meu projeto] silly : Log do tipo silly
+2023-12-05T18:05:54.580Z [Meu projeto] error : Log de erro
+2023-12-05T18:05:54.582Z [Meu projeto] warn : Log de alerta
+2023-12-05T18:05:54.582Z [Meu projeto] info : Log de informação
+2023-12-05T18:05:54.583Z [Meu projeto] verbose : Log do tipo verbose
+2023-12-05T18:05:54.583Z [Meu projeto] debug : Log com o tipo de degub
+2023-12-05T18:05:54.584Z [Meu projeto] silly : Log do tipo silly
+2023-12-05T18:08:19.631Z [Meu projeto] error : Log de erro
+2023-12-05T18:08:19.633Z [Meu projeto] warn : Log de alerta
+2023-12-05T18:08:19.634Z [Meu projeto] info : Log de informação
+2023-12-05T18:08:19.634Z [Meu projeto] verbose : Log do tipo verbose
+2023-12-05T18:08:19.635Z [Meu projeto] debug : Log com o tipo de degub
+2023-12-05T18:08:19.635Z [Meu projeto] silly : Log do tipo silly
+2023-12-05T18:08:27.044Z [Meu projeto] error : Log de erro
+2023-12-05T18:08:27.046Z [Meu projeto] warn : Log de alerta
+2023-12-05T18:08:27.046Z [Meu projeto] info : Log de informação
+2023-12-05T18:08:27.046Z [Meu projeto] verbose : Log do tipo verbose
+2023-12-05T18:08:27.047Z [Meu projeto] debug : Log com o tipo de degub
+2023-12-05T18:08:27.047Z [Meu projeto] silly : Log do tipo silly
+2023-12-05T18:09:08.155Z [Meu projeto] error : Log de erro
+2023-12-05T18:09:08.157Z [Meu projeto] warn : Log de alerta
+2023-12-05T18:09:08.158Z [Meu projeto] info : Log de informação
+2023-12-05T18:09:08.158Z [Meu projeto] verbose : Log do tipo verbose
+2023-12-05T18:09:08.159Z [Meu projeto] debug : Log com o tipo de degub
+2023-12-05T18:09:08.159Z [Meu projeto] silly : Log do tipo silly
+2023-12-05T18:09:41.549Z [Meu projeto] error : Log de erro
+2023-12-05T18:09:41.551Z [Meu projeto] warn : Log de alerta
+2023-12-05T18:09:41.552Z [Meu projeto] info : Log de informação
+2023-12-05T18:09:41.552Z [Meu projeto] verbose : Log do tipo verbose
+2023-12-05T18:09:41.553Z [Meu projeto] debug : Log com o tipo de degub
+2023-12-05T18:09:41.553Z [Meu projeto] silly : Log do tipo silly
+2023-12-05T18:10:00.187Z [Meu projeto] error : Log de erro
+2023-12-05T18:10:00.190Z [Meu projeto] warn : Log de alerta
+2023-12-05T18:10:00.190Z [Meu projeto] info : Log de informação
+2023-12-05T18:10:00.191Z [Meu projeto] verbose : Log do tipo verbose
+2023-12-05T18:10:00.191Z [Meu projeto] debug : Log com o tipo de degub
+2023-12-05T18:10:00.192Z [Meu projeto] silly : Log do tipo silly
+2023-12-05T18:12:12.281Z [Meu projeto] error : Log de erro
+2023-12-05T18:12:12.283Z [Meu projeto] warn : Log de alerta
+2023-12-05T18:12:12.287Z [Meu projeto] info : Log de informação
+2023-12-05T18:12:12.287Z [Meu projeto] verbose : Log do tipo verbose
+2023-12-05T18:12:12.287Z [Meu projeto] debug : Log com o tipo de degub
+2023-12-05T18:12:12.288Z [Meu projeto] silly : Log do tipo silly
+2023-12-05T18:12:12.288Z [Meu projeto] info : informação
+2023-12-05T18:12:40.383Z [Meu projeto] error : Log de erro
+2023-12-05T18:12:40.385Z [Meu projeto] warn : Log de alerta
+2023-12-05T18:12:40.385Z [Meu projeto] info : Log de informação
+2023-12-05T18:12:40.386Z [Meu projeto] verbose : Log do tipo verbose
+2023-12-05T18:12:40.386Z [Meu projeto] debug : Log com o tipo de degub
+2023-12-05T18:12:40.387Z [Meu projeto] silly : Log do tipo silly
+2023-12-05T18:12:52.202Z [Meu projeto] error : Log de erro
+2023-12-05T18:12:52.204Z [Meu projeto] warn : Log de alerta
+2023-12-05T18:12:52.205Z [Meu projeto] info : Log de informação
+2023-12-05T18:12:52.205Z [Meu projeto] verbose : Log do tipo verbose
+2023-12-05T18:12:52.206Z [Meu projeto] debug : Log com o tipo de degub
+2023-12-05T18:12:52.209Z [Meu projeto] silly : Log do tipo silly
+2023-12-05T18:12:52.210Z [Meu projeto] debug : Hello, Winston!
+2023-12-05T18:13:06.629Z [Meu projeto] error : Log de erro
+2023-12-05T18:13:06.631Z [Meu projeto] warn : Log de alerta
+2023-12-05T18:13:06.631Z [Meu projeto] info : Log de informação
+2023-12-05T18:13:06.632Z [Meu projeto] verbose : Log do tipo verbose
+2023-12-05T18:13:06.632Z [Meu projeto] debug : Log com o tipo de degub
+2023-12-05T18:13:06.633Z [Meu projeto] silly : Log do tipo silly
+2023-12-05T18:13:12.355Z [Meu projeto] error : Log de erro
+2023-12-05T18:13:12.357Z [Meu projeto] warn : Log de alerta
+2023-12-05T18:13:12.358Z [Meu projeto] info : Log de informação
+2023-12-05T18:13:12.358Z [Meu projeto] verbose : Log do tipo verbose
+2023-12-05T18:13:12.364Z [Meu projeto] debug : Log com o tipo de degub
+2023-12-05T18:13:12.365Z [Meu projeto] silly : Log do tipo silly
+2023-12-05T18:13:12.365Z [Meu projeto] info : Hello, Winston!
+2023-12-05T18:13:25.234Z [Meu projeto] error : Log de erro
+2023-12-05T18:13:25.236Z [Meu projeto] warn : Log de alerta
+2023-12-05T18:13:25.237Z [Meu projeto] info : Log de informação
+2023-12-05T18:13:25.237Z [Meu projeto] verbose : Log do tipo verbose
+2023-12-05T18:13:25.238Z [Meu projeto] debug : Log com o tipo de degub
+2023-12-05T18:13:25.238Z [Meu projeto] silly : Log do tipo silly
+2023-12-05T18:13:25.239Z [Meu projeto] info : Olá com parametros!
+2023-12-05T18:13:30.426Z [Meu projeto] error : Log de erro
+2023-12-05T18:13:30.428Z [Meu projeto] warn : Log de alerta
+2023-12-05T18:13:30.428Z [Meu projeto] info : Log de informação
+2023-12-05T18:13:30.429Z [Meu projeto] verbose : Log do tipo verbose
+2023-12-05T18:13:30.429Z [Meu projeto] debug : Log com o tipo de degub
+2023-12-05T18:13:30.430Z [Meu projeto] silly : Log do tipo silly
+2023-12-05T18:13:30.430Z [Meu projeto] info : Olá com parametros!
